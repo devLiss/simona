@@ -9,26 +9,25 @@
 
     </head>
     <body>
-        <div class="mx-auto h-screen bg-gray-700">
-            <div class="container mx-auto px-5 py-5 bg-gray-500 rounded shadow">
-                <div>
-                    <h3></h3>
+        <div class="mx-auto h-screen bg-gray-800 text-red-300">
+            <div class="absolute mx-auto my-auto px-20 py-15 rounded shadow font-mono bg-gray-600 ">
+                <div class="py-7">
+                    <h3 class="">Sign In</h3>
                 </div>
                 <div>
                     <form>
                         <div>
-                            <label>Email</label>
-                            <input type="email"/>
+                            <label class="">Email</label></br>
+                            <input class="rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" type="email"/>
                         </div>
                         <div>
-                            <label>Password</label>
-                            <input type="password"/>
+                            <label class="">Password</label></br>
+                            <input class="rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" type="password"/>
                         </div>
 
-                        <div class="bg-red-400">
-                            <label for="sbmt">Sign In</label>
-                            <input id="sbmt" type="submit" placeholder=""/>
-                        </div>
+                        <button class="py-6 bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+                                Sign up
+                        </button>
                     </form>
                 </div>
             </div>
