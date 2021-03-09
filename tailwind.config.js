@@ -1,4 +1,3 @@
-const { blueGray } = require('tailwindcss/colors')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -13,9 +12,7 @@ module.exports = {
       ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors:{
-        gray:blueGray,
-    },
+
     extend: {},
   },
   variants: {

@@ -9,7 +9,7 @@
 
     </head>
     <body>
-        <div class="mx-auto h-screen bg-gray-800 text-red-300">
+        <div class="mx-auto h-screen bg-gray-800 text-white">
             <div class="absolute mx-auto my-auto px-20 py-15 rounded shadow font-mono bg-gray-600 ">
                 <div class="py-7">
                     <h3 class="">Sign In</h3>
@@ -24,8 +24,7 @@
                             <label class="">Password</label></br>
                             <input class="rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" type="password"/>
                         </div>
-
-                        <button class="py-6 bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+                        <button class="bg-blue-600 rouded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
                                 Sign up
                         </button>
                     </form>
