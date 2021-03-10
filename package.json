@@ -15,6 +15,10 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.2.6",
-        "tailwindcss": "^2.0.3"
+        "tailwindcss": "^2.0.3",
+        "tailwindcss-pseudo-elements": "^1.5.1"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.2.1"
     }
 }

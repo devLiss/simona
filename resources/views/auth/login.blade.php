@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <title>Laravel</title>
 
-        <title>Symona</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     </head>
-    <body>
-        <div class="mx-auto h-screen bg-gray-800 text-white">
-            <div class="absolute mx-auto my-auto px-20 py-15 rounded shadow font-mono bg-gray-600 ">
-                <div class="py-7">
-                    <h3 class="">Sign In</h3>
+
+    <body class="m-auto min-h-screen bg-cover bg-logo-background relative">
+        <div class=" bg-gray-900 bg-opacity-50 px-5 mx-auto rounded-b-lg rounded-t-lg shadow-md max-w-sm absolute inset-96">
+            <div class="header py-4">
+                <h3 class="text-center md:text-left text-white text-2xl font-mono">Sign in</h3>
+            </div>
+            <form>
+                <div>
+                        <label class="text-white font-mono"> Username</label> </br>
+                        <input
+                          type="email"
+                          class="w-full rounded-full py-1 px-2 text-white shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                          placeholder=" "
+                        />
+                </div>
+                <div class="my-3">
+                    <label class="text-white font-mono">Password</label></br>
+                    <input
+                    type="password"
+                    class="w-full rounded-full py-1 px-2 text-white shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    placeholder=""
+                  />
                 </div>
                 <div>
-                    <form>
-                        <div>
-                            <label class="">Email</label></br>
-                            <input class="rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" type="email"/>
-                        </div>
-                        <div>
-                            <label class="">Password</label></br>
-                            <input class="rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" type="password"/>
-                        </div>
-                        <button class="bg-blue-600 rouded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
-                                Sign up
-                        </button>
-                    </form>
+                    <input id="check" type="checkbox" class="rounded-md checked:bg-blue-400" checked>
+					<label for="check" class="text-white font-mono"> Remember me</label>
                 </div>
-            </div>
+                <div class="py-5 ">
+                  <input class="bg-red-400 text-white border-gray-900 w-full py-1 px-2 cursor-pointer  rounded-full" type="submit" value="Sign In"/>
+                </div>
+            </form>
         </div>
     </body>
 </html>

@@ -1,22 +1,32 @@
 const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-    purge: [
+  purge: [
+      './resources/**/*.blade.php',
 
-        './resources/**/*.blade.php',
+      './resources/**/*.js',
 
-        './resources/**/*.js',
-
-        './resources/**/*.vue',
-
-      ],
-  darkMode: false, // or 'media' or 'class'
+      './resources/**/*.vue',
+  ],
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
 
-    extend: {},
+    colors:{
+        transpanent:'transpanent',
+        current:'currentColor',
+        gray:colors.coolGray,
+        white: colors.white,
+        teal: colors.teal,
+        red:colors.red,
+    },
+    extend: {
+        backgroundImage: theme => ({
+            'logo-background':"url('img/abstract.png')",}),
+       },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [  ],
 }
