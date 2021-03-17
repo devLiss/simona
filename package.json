@@ -19,6 +19,7 @@
         "tailwindcss-pseudo-elements": "^1.5.1"
     },
     "dependencies": {
-        "@tailwindcss/forms": "^0.2.1"
+        "@tailwindcss/forms": "^0.2.1",
+        "alpinejs": "^2.8.1"
     }
 }
