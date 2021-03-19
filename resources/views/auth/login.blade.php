@@ -11,24 +11,24 @@
 
     </head>
 
-    <body >
-        <div
-        class="flex flex-col items-center justify-center min-h-screen p-4 space-y-4 antialiased text-gray-900 bg-logo-background bg-cover"
-      >
+    <body>
+        <div class="flex flex-col items-center justify-center min-h-screen p-4 space-y-4 antialiased text-gray-900 bg-logo-background bg-cover">
         <main>
           <div class="w-full max-w-sm px-4 py-6 space-y-6 bg-gray-900 bg-opacity-50 rounded-md">
-            <div class="w-full"><img src="images/fox-logo-1.png" class="w-16 h-24 mx-auto" alt="Login"/></div>
+            <div class="w-full">
+                <img class="mx-auto w-16 h-24" src="images/fox-logo-1.png"/>
+            </div>
             <h1 class="text-xl font-semibold text-center text-white">Welcome</h1>
             <form action="#" class="space-y-6">
               <input
-                class="w-full px-4 py-2 border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
+                class="w-full px-4 py-2 text-white border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
                 type="email"
                 name="email"
                 placeholder="Email address"
                 required
               />
               <input
-                class="w-full px-4 py-2 border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
+                class="w-full px-4 py-2 text-white border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
                 type="password"
                 name="password"
                 placeholder="Password"
