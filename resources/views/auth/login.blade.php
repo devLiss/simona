@@ -19,13 +19,15 @@
                 <img class="mx-auto w-16 h-24" src="images/fox-logo-1.png"/>
             </div>
             <h1 class="text-xl font-semibold text-center text-white">Welcome</h1>
-            <form action="#" class="space-y-6">
+            <form method="POST" action="{{route('login')}}" class="space-y-6">
+                @csrf
               <input
                 class="w-full px-4 py-2 text-white border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
                 type="email"
                 name="email"
                 placeholder="Email address"
                 required
+                value="{{ old('email') }}"
               />
               <input
                 class="w-full px-4 py-2 text-white border border-red-900 rounded-md bg-gray-900 bg-opacity-50 focus:outline-none focus:ring focus:ring-red-500"
@@ -33,6 +35,7 @@
                 name="password"
                 placeholder="Password"
                 required
+                value="{{ old('password') }}"
               />
               <div class="flex items-center justify-between">
                 <!-- Remember me toggle -->
