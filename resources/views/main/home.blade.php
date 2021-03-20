@@ -62,77 +62,7 @@
                   </a>
                 </div>
                 <div class="flex flex-col items-center justify-center flex-1 space-y-4">
-                  <!-- Notification button -->
-                  <!--<button
-                    class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
-                  >
-                    <span class="sr-only">Open Notification panel</span>
-                    <svg
-                      class="w-7 h-7"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                      />
-                    </svg>
-                  </button> -->
 
-                  <!-- Search button -->
-                 <!-- <button
-                    class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
-                  >
-                    <span class="sr-only">Open search panel</span>
-                    <svg
-                      class="w-7 h-7"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                      />
-                    </svg>
-                  </button> -->
-
-                  <!-- Settings button -->
-                  <!--<button
-                    class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
-                  >
-                    <span class="sr-only">Open settings panel</span>
-                    <svg
-                      class="w-7 h-7"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                  </button>-->
                 </div>
                 <!-- Mini column footer -->
                 <div class="relative flex items-center justify-center flex-shrink-0">
@@ -167,29 +97,6 @@
                     aria-orientation="vertical"
                     aria-label="User menu"
                     >
-                    <!--  <a
-                        href="#"
-                        role="menuitem"
-                        class="block px-4 py-2 text-sm text-white transition-colors hover:bg-gray-700"
-                      >
-                      <span class="inline-flex justify-center items-center">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
-                      </span>
-                      <span class="ml-2 text-sm tracking-wide truncate">Profile</span>
-                      </a>
-                      <a
-                        href="#"
-                        role="menuitem"
-                        class="block px-4 py-2 text-sm text-white transition-colors hover:bg-gray-700"
-                      >
-                      <span class="inline-flex justify-center items-center">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                      </span>
-                      <span class="ml-2 text-sm tracking-wide truncate">Settings</span>
-                      </a>-->
                       <a
                         href="{{ route('logout') }}"
                         role="menuitem"
@@ -210,7 +117,7 @@
               </div>
             </aside>
             <!-- Sidebar button -->
-        <!--<div class="fixed flex items-center space-x-4 top-5 right-10 lg:hidden">
+        <div class="fixed flex items-center space-x-4 top-5 right-10 lg:hidden">
             <button
               @click="isSidebarOpen = true; $nextTick(() => { if(open){ $refs.userMenu.focus() } })"
               class="p-1 transition-colors duration-200 rounded-md text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:ring"
@@ -239,67 +146,140 @@
                 </svg>
               </span>
             </button>
-          </div>-->
+          </div>
             <!-- Main content -->
             <main class="flex-1">
-              <div class="flex flex-col items-center justify-center flex-1 h-full min-h-screen p-4 overflow-x-hidden overflow-y-auto">
-                <h1 class="mb-4 text-2xl font-semibold text-center md:text-3xl">Main Grid</h1>
+              <div class="flex flex-row flex-1 h-full min-h-screen p-4 space-x-4 overflow-x-hidden overflow-y-auto">
+                <!--<h1 class="mb-4 text-2xl font-semibold text-center md:text-3xl">Main Grid</h1>-->
+                  <div id="diagnostic" class="block w-3/5 min-h-full  bg-gray-800 border border-gray-700">
+                    <div class="space-x-2">
+                        <label for="myBrowser">Agent</label>
+
+                        <select class="w-20 border rounded-md bg-gray-800 text-white" name="commands" id="commands">
+                            <option value="">Com_1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+
+                        <input type="text" placeholder="params">
+                        <button class="rounded-md w-20 bg-red-500 hover:bg-opacity-70">
+                            Ok
+                        </button>
+                    </div>
+                    <div id="output" class="w-9/12 h-4/6 m-5 bg-gray-900 border border-gray-700 shadow-lg rounded-md space-y-5 items-center">
+
+                    </div>
+                  </div>
+                  <div id="history" class="block w-2/5 min-h-full bg-gray-800 border border-gray-700">
+
+ <div class="max-w-xs">
+        <div
+                x-data="select({ data: { a1: 'Agent_1', a2: 'Agent_2', a3: 'Agent_3', a4: 'Agent_4' }, emptyOptionsMessage: 'No agents.', name: 'agent', placeholder: 'Select an agent' })"
+                x-init="init()"
+                @click.away="closeListbox()"
+                @keydown.escape="closeListbox()"
+                class="relative"
+        >
+                <span class="inline-block w-full rounded-md shadow-sm">
+                      <button
+                              x-ref="button"
+                              @click="toggleListboxVisibility()"
+                              :aria-expanded="open"
+                              aria-haspopup="listbox"
+                              class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-gray-800 border border-gray-300 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm sm:leading-5"
+                      >
+                            <span
+                                    x-show="! open"
+                                    x-text="value in options ? options[value] : placeholder"
+                                    :class="{ 'text-gray-500': ! (value in options) }"
+                                    class="block truncate"
+                            ></span>
+
+                            <input
+                                    x-ref="search"
+                                    x-show="open"
+                                    x-model="search"
+                                    @keydown.enter.stop.prevent="selectOption()"
+                                    @keydown.arrow-up.prevent="focusPreviousOption()"
+                                    @keydown.arrow-down.prevent="focusNextOption()"
+                                    type="search"
+                                    class="w-full h-full form-control focus:outline-none bg-gray-800"
+                            />
+
+                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                      </button>
+                </span>
+
+            <div
+                    x-show="open"
+                    x-transition:leave="transition ease-in duration-100"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    x-cloak
+                    class="absolute z-10 w-full mt-1 bg-gray-800 rounded-md shadow-lg"
+            >
+                <ul
+                        x-ref="listbox"
+                        @keydown.enter.stop.prevent="selectOption()"
+                        @keydown.arrow-up.prevent="focusPreviousOption()"
+                        @keydown.arrow-down.prevent="focusNextOption()"
+                        role="listbox"
+                        :aria-activedescendant="focusedOptionIndex ? name + 'Option' + focusedOptionIndex : null"
+                        tabindex="-1"
+                        class="py-1 overflow-auto text-base leading-6 rounded-md shadow-xs max-h-60 focus:outline-none sm:text-sm sm:leading-5"
+                >
+                    <template x-for="(key, index) in Object.keys(options)" :key="index">
+                        <li
+                                :id="name + 'Option' + focusedOptionIndex"
+                                @click="selectOption()"
+                                @mouseenter="focusedOptionIndex = index"
+                                @mouseleave="focusedOptionIndex = null"
+                                role="option"
+                                :aria-selected="focusedOptionIndex === index"
+                                :class="{ 'text-white bg-indigo-600': index === focusedOptionIndex, 'text-white': index !== focusedOptionIndex }"
+                                class="relative py-2 pl-3 text-white cursor-default select-none pr-9"
+                        >
+                                <span x-text="Object.values(options)[index]"
+                                      :class="{ 'font-semibold': index === focusedOptionIndex, 'font-normal': index !== focusedOptionIndex }"
+                                      class="block font-normal truncate"
+                                ></span>
+
+                            <span
+                                    x-show="key === value"
+                                    :class="{ 'text-white': index === focusedOptionIndex, 'text-indigo-600': index !== focusedOptionIndex }"
+                                    class="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600"
+                            >
+                                    <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                              clip-rule="evenodd"/>
+                                    </svg>
+                                </span>
+                        </li>
+                    </template>
+
+                    <div
+                            x-show="! Object.keys(options).length"
+                            x-text="emptyOptionsMessage"
+                            class="px-3 py-2 text-white cursor-default select-none"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+                  </div>
               </div>
             </main>
           </div>
         </div>
-
-        <!-- All javascript code in this project for now is just for demo DON'T RELY ON IT  -->
-        <script>
-          const setup = () => {
-            const getTheme = () => {
-              if (window.localStorage.getItem('dark')) {
-                return JSON.parse(window.localStorage.getItem('dark'))
-              }
-              return !!window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-            }
-
-            const setTheme = (value) => {
-              window.localStorage.setItem('dark', value)
-            }
-
-            const getColor = () => {
-              if (window.localStorage.getItem('color')) {
-                return window.localStorage.getItem('color')
-              }
-              return 'cyan'
-            }
-
-            const setColors = (color) => {
-              const root = document.documentElement
-              root.style.setProperty('--color-primary', `var(--color-${color})`)
-              root.style.setProperty('--color-primary-50', `var(--color-${color}-50)`)
-              root.style.setProperty('--color-primary-100', `var(--color-${color}-100)`)
-              root.style.setProperty('--color-primary-light', `var(--color-${color}-light)`)
-              root.style.setProperty('--color-primary-lighter', `var(--color-${color}-lighter)`)
-              root.style.setProperty('--color-primary-dark', `var(--color-${color}-dark)`)
-              root.style.setProperty('--color-primary-darker', `var(--color-${color}-darker)`)
-              this.selectedColor = color
-              window.localStorage.setItem('color', color)
-            }
-
-            return {
-              loading: true,
-              color: getColor(),
-              selectedColor: 'cyan',
-              watchScreen() {
-                if (window.innerWidth <= 1024) {
-                this.isSidebarOpen = false
-                } else if (window.innerWidth >= 1024) {
-                this.isSidebarOpen = true
-                }
-            },
-            isSidebarOpen: window.innerWidth >= 1024 ? true : false,
-            toggleSidbarMenu() {
-                this.isSidebarOpen = !this.isSidebarOpen
-            },
-            }
-          }
-        </script>
+        <script src="js/component.js"></script>
       </body>
 </html>
