@@ -73,8 +73,8 @@ const setup = () => {
 
             toggleListboxVisibility: function () {
                 if (this.open) return this.closeListbox()
-                console.log(Object.keys(this.options))
                 this.focusedOptionIndex = Object.keys(this.options).indexOf(this.value)
+                console.log(this.$refs);
                 if (this.focusedOptionIndex < 0) this.focusedOptionIndex = 0
                 this.open = true
 
